@@ -35,6 +35,27 @@
 
 
 // note converting to String and the result
-let someNumber = 33
-let stringSomeNumber = String(someNumber)
-console.log(stringSomeNumber)
+// let someNumber = 33
+// let stringSomeNumber = String(someNumber)
+// console.log(stringSomeNumber)
+
+
+
+// ******************** Operations ********************
+
+// console.log(2+2)
+// console.log(2-2)
+// console.log(2/2)
+// console.log(2*2)
+// console.log(2**2)
+// console.log(2%2)
+
+
+// let str1 = "jyoti"
+// let str2 = " singh"
+// let str3 = str1 + str2
+// console.log(str3)
+// console.log("1"+2)
+// console.log(1+"2")
+// console.log("1"+2+2)
+// console.log(1+2+"2")
