@@ -24,7 +24,28 @@ let myObj ={
 let myFunc = function(){
 
 }
-console.log(typeof heroes)
-console.log(typeof myObj)
-console.log(typeof myFunc)
-console.log(typeof null)
+// console.log(typeof heroes)
+// console.log(typeof myObj)
+// console.log(typeof myFunc)
+// console.log(typeof null)
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// stack (primitive) and heap (non - primitive) memory!!
+
+let myutube= "jyotisingh.com"
+let anotherName = myutube
+anotherName = "roshni"
+
+console.log(anotherName, myutube)
+
+let userOne ={
+    email : "jyotisingh82000@gmail.com",
+    age: 23
+}
+console.log(userOne.email)
+let userTwo = userOne
+userTwo.email ="roshnisingh882000@gmail.com"
+console.log(userOne.email)
+console.log(userTwo.email)
